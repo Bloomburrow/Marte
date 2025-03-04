@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80648213f7a74034a8745590fda89833, type: 3}
+  m_Name: Brave Star
+  m_EditorClassIdentifier: 
+  properties: '[{"86,97,114,105,97,98,108,101,115,32,38,32,80,114,111,112,101,114,116,105,101,115",[{"73,110,100,101,110,116,105,102,105,99,97,116,105,111,110,32,68,97,116,97",[],True},{"83,116,111,114,97,98,108,101,32,68,97,116,97",[],True},{"71,97,109,101,32,68,97,116,97",[],True}],True},{"67,111,109,112,111,110,101,110,116,115",[{"69,120,116,101,114,110,97,108",[],True}],True}]'
+  name: Brave Star
+  identificationNumber: 0
+  sprite: {fileID: 21300000, guid: 3765f3eec143a094abd00ad93b15f498, type: 3}
+  isUnlocked: 0
+  level: {x: 1, y: 10}
+  fragments: 0
+  deckData:
+    size: 10
+    cardsIndexes:
+    - {x: -1, y: -1}
+    - {x: -1, y: -1}
+    - {x: -1, y: -1}
+    - {x: -1, y: -1}
+    - {x: -1, y: -1}
+    - {x: -1, y: -1}
+    - {x: -1, y: -1}
+    - {x: -1, y: -1}
+    - {x: -1, y: -1}
+    - {x: -1, y: -1}
+  initialDeckCardsIndexes: 0000000000000000000000000100000001000000030000000f000000130000001300000018000000
+  statsData:
+    statsData:
+    - isMoment: 0
+      name: Critic
+      value: 2
+      increasePerLevel: 1
+      valueIncreasePerLevel: 2
+    - isMoment: 0
+      name: Lives
+      value: 23
+      increasePerLevel: 1
+      valueIncreasePerLevel: 3
+    - isMoment: 0
+      name: Armor
+      value: 0
+      increasePerLevel: 0
+      valueIncreasePerLevel: 0
+    - isMoment: 0
+      name: Hand
+      value: 3
+      increasePerLevel: 0
+      valueIncreasePerLevel: 0
+    - isMoment: 0
+      name: Actions Per Turn
+      value: 3
+      increasePerLevel: 0
+      valueIncreasePerLevel: 0
+    - isMoment: 0
+      name: Mana
+      value: 6
+      increasePerLevel: 1
+      valueIncreasePerLevel: 1
+  UIStyleData: {fileID: 11400000, guid: bc7bb97e39b6b924e820296f484dafd2, type: 2}
+  ability: {fileID: 708413676549658026, guid: 25043349bedff4b49b0fe2739bb9565b, type: 3}
